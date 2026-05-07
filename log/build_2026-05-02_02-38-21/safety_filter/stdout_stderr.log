@@ -1,0 +1,39 @@
+running egg_info
+creating ../../build/safety_filter/safety_filter.egg-info
+writing ../../build/safety_filter/safety_filter.egg-info/PKG-INFO
+writing dependency_links to ../../build/safety_filter/safety_filter.egg-info/dependency_links.txt
+writing entry points to ../../build/safety_filter/safety_filter.egg-info/entry_points.txt
+writing requirements to ../../build/safety_filter/safety_filter.egg-info/requires.txt
+writing top-level names to ../../build/safety_filter/safety_filter.egg-info/top_level.txt
+writing manifest file '../../build/safety_filter/safety_filter.egg-info/SOURCES.txt'
+reading manifest file '../../build/safety_filter/safety_filter.egg-info/SOURCES.txt'
+writing manifest file '../../build/safety_filter/safety_filter.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /mnt/c/Sidarth/robotics/projects_robotics/dsp/ros2_ws/build/safety_filter/build
+creating /mnt/c/Sidarth/robotics/projects_robotics/dsp/ros2_ws/build/safety_filter/build/lib
+creating /mnt/c/Sidarth/robotics/projects_robotics/dsp/ros2_ws/build/safety_filter/build/lib/safety_filter
+copying safety_filter/safety_filter_node.py -> /mnt/c/Sidarth/robotics/projects_robotics/dsp/ros2_ws/build/safety_filter/build/lib/safety_filter
+copying safety_filter/ultrasonic_sensor_node.py -> /mnt/c/Sidarth/robotics/projects_robotics/dsp/ros2_ws/build/safety_filter/build/lib/safety_filter
+copying safety_filter/__init__.py -> /mnt/c/Sidarth/robotics/projects_robotics/dsp/ros2_ws/build/safety_filter/build/lib/safety_filter
+running install
+running install_lib
+creating /mnt/c/Sidarth/robotics/projects_robotics/dsp/ros2_ws/install/safety_filter/lib/python3.12/site-packages/safety_filter
+copying /mnt/c/Sidarth/robotics/projects_robotics/dsp/ros2_ws/build/safety_filter/build/lib/safety_filter/safety_filter_node.py -> /mnt/c/Sidarth/robotics/projects_robotics/dsp/ros2_ws/install/safety_filter/lib/python3.12/site-packages/safety_filter
+copying /mnt/c/Sidarth/robotics/projects_robotics/dsp/ros2_ws/build/safety_filter/build/lib/safety_filter/ultrasonic_sensor_node.py -> /mnt/c/Sidarth/robotics/projects_robotics/dsp/ros2_ws/install/safety_filter/lib/python3.12/site-packages/safety_filter
+copying /mnt/c/Sidarth/robotics/projects_robotics/dsp/ros2_ws/build/safety_filter/build/lib/safety_filter/__init__.py -> /mnt/c/Sidarth/robotics/projects_robotics/dsp/ros2_ws/install/safety_filter/lib/python3.12/site-packages/safety_filter
+byte-compiling /mnt/c/Sidarth/robotics/projects_robotics/dsp/ros2_ws/install/safety_filter/lib/python3.12/site-packages/safety_filter/safety_filter_node.py to safety_filter_node.cpython-312.pyc
+byte-compiling /mnt/c/Sidarth/robotics/projects_robotics/dsp/ros2_ws/install/safety_filter/lib/python3.12/site-packages/safety_filter/ultrasonic_sensor_node.py to ultrasonic_sensor_node.cpython-312.pyc
+byte-compiling /mnt/c/Sidarth/robotics/projects_robotics/dsp/ros2_ws/install/safety_filter/lib/python3.12/site-packages/safety_filter/__init__.py to __init__.cpython-312.pyc
+running install_data
+creating /mnt/c/Sidarth/robotics/projects_robotics/dsp/ros2_ws/install/safety_filter/share/ament_index
+creating /mnt/c/Sidarth/robotics/projects_robotics/dsp/ros2_ws/install/safety_filter/share/ament_index/resource_index
+creating /mnt/c/Sidarth/robotics/projects_robotics/dsp/ros2_ws/install/safety_filter/share/ament_index/resource_index/packages
+copying resource/safety_filter -> /mnt/c/Sidarth/robotics/projects_robotics/dsp/ros2_ws/install/safety_filter/share/ament_index/resource_index/packages
+copying package.xml -> /mnt/c/Sidarth/robotics/projects_robotics/dsp/ros2_ws/install/safety_filter/share/safety_filter
+running install_egg_info
+Copying ../../build/safety_filter/safety_filter.egg-info to /mnt/c/Sidarth/robotics/projects_robotics/dsp/ros2_ws/install/safety_filter/lib/python3.12/site-packages/safety_filter-0.0.0-py3.12.egg-info
+running install_scripts
+Installing safety_filter_node script to /mnt/c/Sidarth/robotics/projects_robotics/dsp/ros2_ws/install/safety_filter/lib/safety_filter
+Installing ultrasonic_sensor_node script to /mnt/c/Sidarth/robotics/projects_robotics/dsp/ros2_ws/install/safety_filter/lib/safety_filter
+writing list of installed files to '/mnt/c/Sidarth/robotics/projects_robotics/dsp/ros2_ws/build/safety_filter/install.log'

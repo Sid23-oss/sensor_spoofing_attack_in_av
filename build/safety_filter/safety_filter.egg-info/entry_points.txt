@@ -1,0 +1,9 @@
+[console_scripts]
+dsp_filter_node = safety_filter.dsp_filter_node:main
+dsp_sensor_filter_node = safety_filter.dsp_sensor_filter_node:main
+keyboard_attack_node = safety_filter.keyboard_attack_node:main
+safety_filter_node = safety_filter.safety_filter_node:main
+sensor_attack_node = safety_filter.sensor_attack_node:main
+sensor_controller_node = safety_filter.sensor_controller_node:main
+sensor_router_node = safety_filter.sensor_router_node:main
+ultrasonic_sensor_node = safety_filter.ultrasonic_sensor_node:main

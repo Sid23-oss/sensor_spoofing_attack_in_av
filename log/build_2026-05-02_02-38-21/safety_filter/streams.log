@@ -1,0 +1,41 @@
+[3.473s] Invoking command in '/mnt/c/Sidarth/robotics/projects_robotics/dsp/ros2_ws/src/safety_filter': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/mnt/c/Sidarth/robotics/projects_robotics/dsp/ros2_ws/build/safety_filter/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/mnt/c/Sidarth/robotics/projects_robotics/dsp/ros2_ws/install/safety_filter/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/safety_filter build --build-base /mnt/c/Sidarth/robotics/projects_robotics/dsp/ros2_ws/build/safety_filter/build install --record /mnt/c/Sidarth/robotics/projects_robotics/dsp/ros2_ws/build/safety_filter/install.log --single-version-externally-managed install_data
+[5.071s] running egg_info
+[5.082s] creating ../../build/safety_filter/safety_filter.egg-info
+[5.126s] writing ../../build/safety_filter/safety_filter.egg-info/PKG-INFO
+[5.155s] writing dependency_links to ../../build/safety_filter/safety_filter.egg-info/dependency_links.txt
+[5.168s] writing entry points to ../../build/safety_filter/safety_filter.egg-info/entry_points.txt
+[5.193s] writing requirements to ../../build/safety_filter/safety_filter.egg-info/requires.txt
+[5.203s] writing top-level names to ../../build/safety_filter/safety_filter.egg-info/top_level.txt
+[5.223s] writing manifest file '../../build/safety_filter/safety_filter.egg-info/SOURCES.txt'
+[5.375s] reading manifest file '../../build/safety_filter/safety_filter.egg-info/SOURCES.txt'
+[5.542s] writing manifest file '../../build/safety_filter/safety_filter.egg-info/SOURCES.txt'
+[5.550s] running build
+[5.553s] running build_py
+[5.569s] creating /mnt/c/Sidarth/robotics/projects_robotics/dsp/ros2_ws/build/safety_filter/build
+[5.575s] creating /mnt/c/Sidarth/robotics/projects_robotics/dsp/ros2_ws/build/safety_filter/build/lib
+[5.581s] creating /mnt/c/Sidarth/robotics/projects_robotics/dsp/ros2_ws/build/safety_filter/build/lib/safety_filter
+[5.605s] copying safety_filter/safety_filter_node.py -> /mnt/c/Sidarth/robotics/projects_robotics/dsp/ros2_ws/build/safety_filter/build/lib/safety_filter
+[5.670s] copying safety_filter/ultrasonic_sensor_node.py -> /mnt/c/Sidarth/robotics/projects_robotics/dsp/ros2_ws/build/safety_filter/build/lib/safety_filter
+[5.736s] copying safety_filter/__init__.py -> /mnt/c/Sidarth/robotics/projects_robotics/dsp/ros2_ws/build/safety_filter/build/lib/safety_filter
+[5.776s] running install
+[5.795s] running install_lib
+[5.890s] creating /mnt/c/Sidarth/robotics/projects_robotics/dsp/ros2_ws/install/safety_filter/lib/python3.12/site-packages/safety_filter
+[5.938s] copying /mnt/c/Sidarth/robotics/projects_robotics/dsp/ros2_ws/build/safety_filter/build/lib/safety_filter/safety_filter_node.py -> /mnt/c/Sidarth/robotics/projects_robotics/dsp/ros2_ws/install/safety_filter/lib/python3.12/site-packages/safety_filter
+[6.033s] copying /mnt/c/Sidarth/robotics/projects_robotics/dsp/ros2_ws/build/safety_filter/build/lib/safety_filter/ultrasonic_sensor_node.py -> /mnt/c/Sidarth/robotics/projects_robotics/dsp/ros2_ws/install/safety_filter/lib/python3.12/site-packages/safety_filter
+[6.136s] copying /mnt/c/Sidarth/robotics/projects_robotics/dsp/ros2_ws/build/safety_filter/build/lib/safety_filter/__init__.py -> /mnt/c/Sidarth/robotics/projects_robotics/dsp/ros2_ws/install/safety_filter/lib/python3.12/site-packages/safety_filter
+[6.242s] byte-compiling /mnt/c/Sidarth/robotics/projects_robotics/dsp/ros2_ws/install/safety_filter/lib/python3.12/site-packages/safety_filter/safety_filter_node.py to safety_filter_node.cpython-312.pyc
+[6.354s] byte-compiling /mnt/c/Sidarth/robotics/projects_robotics/dsp/ros2_ws/install/safety_filter/lib/python3.12/site-packages/safety_filter/ultrasonic_sensor_node.py to ultrasonic_sensor_node.cpython-312.pyc
+[6.462s] byte-compiling /mnt/c/Sidarth/robotics/projects_robotics/dsp/ros2_ws/install/safety_filter/lib/python3.12/site-packages/safety_filter/__init__.py to __init__.cpython-312.pyc
+[6.554s] running install_data
+[6.573s] creating /mnt/c/Sidarth/robotics/projects_robotics/dsp/ros2_ws/install/safety_filter/share/ament_index
+[6.580s] creating /mnt/c/Sidarth/robotics/projects_robotics/dsp/ros2_ws/install/safety_filter/share/ament_index/resource_index
+[6.588s] creating /mnt/c/Sidarth/robotics/projects_robotics/dsp/ros2_ws/install/safety_filter/share/ament_index/resource_index/packages
+[6.621s] copying resource/safety_filter -> /mnt/c/Sidarth/robotics/projects_robotics/dsp/ros2_ws/install/safety_filter/share/ament_index/resource_index/packages
+[6.695s] copying package.xml -> /mnt/c/Sidarth/robotics/projects_robotics/dsp/ros2_ws/install/safety_filter/share/safety_filter
+[6.735s] running install_egg_info
+[6.819s] Copying ../../build/safety_filter/safety_filter.egg-info to /mnt/c/Sidarth/robotics/projects_robotics/dsp/ros2_ws/install/safety_filter/lib/python3.12/site-packages/safety_filter-0.0.0-py3.12.egg-info
+[7.523s] running install_scripts
+[8.127s] Installing safety_filter_node script to /mnt/c/Sidarth/robotics/projects_robotics/dsp/ros2_ws/install/safety_filter/lib/safety_filter
+[8.156s] Installing ultrasonic_sensor_node script to /mnt/c/Sidarth/robotics/projects_robotics/dsp/ros2_ws/install/safety_filter/lib/safety_filter
+[8.192s] writing list of installed files to '/mnt/c/Sidarth/robotics/projects_robotics/dsp/ros2_ws/build/safety_filter/install.log'
+[8.229s] Invoked command in '/mnt/c/Sidarth/robotics/projects_robotics/dsp/ros2_ws/src/safety_filter' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/mnt/c/Sidarth/robotics/projects_robotics/dsp/ros2_ws/build/safety_filter/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/mnt/c/Sidarth/robotics/projects_robotics/dsp/ros2_ws/install/safety_filter/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/safety_filter build --build-base /mnt/c/Sidarth/robotics/projects_robotics/dsp/ros2_ws/build/safety_filter/build install --record /mnt/c/Sidarth/robotics/projects_robotics/dsp/ros2_ws/build/safety_filter/install.log --single-version-externally-managed install_data

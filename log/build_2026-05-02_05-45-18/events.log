@@ -1,0 +1,155 @@
+[0.000000] (-) TimerEvent: {}
+[0.000997] (safety_filter) JobQueued: {'identifier': 'safety_filter', 'dependencies': OrderedDict()}
+[0.001585] (safety_filter) JobStarted: {'identifier': 'safety_filter'}
+[0.097042] (-) TimerEvent: {}
+[0.198304] (-) TimerEvent: {}
+[0.299378] (-) TimerEvent: {}
+[0.400302] (-) TimerEvent: {}
+[0.501162] (-) TimerEvent: {}
+[0.602118] (-) TimerEvent: {}
+[0.703220] (-) TimerEvent: {}
+[0.804314] (-) TimerEvent: {}
+[0.905483] (-) TimerEvent: {}
+[1.007202] (-) TimerEvent: {}
+[1.108269] (-) TimerEvent: {}
+[1.209724] (-) TimerEvent: {}
+[1.310974] (-) TimerEvent: {}
+[1.412300] (-) TimerEvent: {}
+[1.513343] (-) TimerEvent: {}
+[1.614711] (-) TimerEvent: {}
+[1.715768] (-) TimerEvent: {}
+[1.817018] (-) TimerEvent: {}
+[1.918475] (-) TimerEvent: {}
+[2.019332] (-) TimerEvent: {}
+[2.120988] (-) TimerEvent: {}
+[2.228458] (-) TimerEvent: {}
+[2.329452] (-) TimerEvent: {}
+[2.430589] (-) TimerEvent: {}
+[2.531607] (-) TimerEvent: {}
+[2.632925] (-) TimerEvent: {}
+[2.733643] (-) TimerEvent: {}
+[2.834785] (-) TimerEvent: {}
+[2.935689] (-) TimerEvent: {}
+[3.036638] (-) TimerEvent: {}
+[3.137651] (-) TimerEvent: {}
+[3.238788] (-) TimerEvent: {}
+[3.340612] (-) TimerEvent: {}
+[3.442070] (-) TimerEvent: {}
+[3.543284] (-) TimerEvent: {}
+[3.644451] (-) TimerEvent: {}
+[3.745323] (-) TimerEvent: {}
+[3.846681] (-) TimerEvent: {}
+[3.947576] (-) TimerEvent: {}
+[4.048720] (-) TimerEvent: {}
+[4.149726] (-) TimerEvent: {}
+[4.250638] (-) TimerEvent: {}
+[4.351707] (-) TimerEvent: {}
+[4.453039] (-) TimerEvent: {}
+[4.554385] (-) TimerEvent: {}
+[4.656043] (-) TimerEvent: {}
+[4.757629] (-) TimerEvent: {}
+[4.858726] (-) TimerEvent: {}
+[4.960007] (-) TimerEvent: {}
+[5.065266] (-) TimerEvent: {}
+[5.166213] (-) TimerEvent: {}
+[5.267245] (-) TimerEvent: {}
+[5.368448] (-) TimerEvent: {}
+[5.469420] (-) TimerEvent: {}
+[5.556678] (safety_filter) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/safety_filter', 'build', '--build-base', '/mnt/c/Sidarth/robotics/projects_robotics/dsp/ros2_ws/build/safety_filter/build', 'install', '--record', '/mnt/c/Sidarth/robotics/projects_robotics/dsp/ros2_ws/build/safety_filter/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/mnt/c/Sidarth/robotics/projects_robotics/dsp/ros2_ws/src/safety_filter', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'USER': 'sidarth', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'WT_PROFILE_ID': '{89eb5d7c-5269-5698-b767-221c40fe2a38}', 'MOTD_SHOWN': 'update-motd', 'HOME': '/home/sidarth', 'OLDPWD': '/mnt/c/Sidarth/robotics/projects_robotics/dsp/ros2_ws/src/safety_filter', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu-24.04', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/mnt/c/Sidarth/robotics/projects_robotics/dsp/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'sidarth', 'NAME': 'sidarth', 'WSL_INTEROP': '/run/WSL/392_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Python38/Scripts:/mnt/c/Python38:/mnt/c/Program Files/Python310/Scripts/:/mnt/c/Program Files/Python310/:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Users/sidar/AppData/Roaming/Python/Python310/Scripts:/mnt/c/Program Files/MATLAB/R2024b/runtime/win64:/mnt/c/Program Files/MATLAB/R2024b/bin:/mnt/c/opencv/x64/vc16/bin:/mnt/c/Program Files/CMake/bin:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files/Graphviz/bin:/mnt/c/xmllint/bin:/mnt/c/Users/sidar/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/sidar/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/sidar/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/sidar/AppData/Local/Microsoft/WinGet/Links:/mnt/c/Program Files/CMake/bin:/mnt/c/msys64/ucrt64/bin:/mnt/c/Users/sidar/AppData/Local/Python/bin:/snap/bin', 'WT_SESSION': 'd7946b42-e5eb-4f6c-93f3-4ada1c834e39', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/mnt/c/Sidarth/robotics/projects_robotics/dsp/ros2_ws/install/safety_filter:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/mnt/c/Sidarth/robotics/projects_robotics/dsp/ros2_ws/build/safety_filter', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/mnt/c/Sidarth/robotics/projects_robotics/dsp/ros2_ws/build/safety_filter/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/mnt/c/Sidarth/robotics/projects_robotics/dsp/ros2_ws/install/safety_filter/lib/python3.12/site-packages:/mnt/c/Sidarth/robotics/projects_robotics/dsp/ros2_ws/install/safety_filter/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor', 'WSLENV': 'WT_SESSION:WT_PROFILE_ID:'}, 'shell': False}
+[5.599641] (-) TimerEvent: {}
+[5.700820] (-) TimerEvent: {}
+[5.801903] (-) TimerEvent: {}
+[5.903031] (-) TimerEvent: {}
+[6.004449] (-) TimerEvent: {}
+[6.105559] (-) TimerEvent: {}
+[6.206576] (-) TimerEvent: {}
+[6.307620] (-) TimerEvent: {}
+[6.409148] (-) TimerEvent: {}
+[6.510196] (-) TimerEvent: {}
+[6.611251] (-) TimerEvent: {}
+[6.712756] (-) TimerEvent: {}
+[6.814100] (-) TimerEvent: {}
+[6.915387] (-) TimerEvent: {}
+[7.017801] (-) TimerEvent: {}
+[7.119093] (-) TimerEvent: {}
+[7.220019] (-) TimerEvent: {}
+[7.321983] (-) TimerEvent: {}
+[7.423218] (-) TimerEvent: {}
+[7.525866] (-) TimerEvent: {}
+[7.610482] (safety_filter) StdoutLine: {'line': b'running egg_info\n'}
+[7.626028] (-) TimerEvent: {}
+[7.676855] (safety_filter) StdoutLine: {'line': b'writing ../../build/safety_filter/safety_filter.egg-info/PKG-INFO\n'}
+[7.701435] (safety_filter) StdoutLine: {'line': b'writing dependency_links to ../../build/safety_filter/safety_filter.egg-info/dependency_links.txt\n'}
+[7.716652] (safety_filter) StdoutLine: {'line': b'writing entry points to ../../build/safety_filter/safety_filter.egg-info/entry_points.txt\n'}
+[7.726191] (-) TimerEvent: {}
+[7.734150] (safety_filter) StdoutLine: {'line': b'writing requirements to ../../build/safety_filter/safety_filter.egg-info/requires.txt\n'}
+[7.744471] (safety_filter) StdoutLine: {'line': b'writing top-level names to ../../build/safety_filter/safety_filter.egg-info/top_level.txt\n'}
+[7.826387] (-) TimerEvent: {}
+[7.927401] (-) TimerEvent: {}
+[7.971172] (safety_filter) StdoutLine: {'line': b"reading manifest file '../../build/safety_filter/safety_filter.egg-info/SOURCES.txt'\n"}
+[8.027674] (-) TimerEvent: {}
+[8.129306] (-) TimerEvent: {}
+[8.193784] (safety_filter) StdoutLine: {'line': b"writing manifest file '../../build/safety_filter/safety_filter.egg-info/SOURCES.txt'\n"}
+[8.205852] (safety_filter) StdoutLine: {'line': b'running build\n'}
+[8.208795] (safety_filter) StdoutLine: {'line': b'running build_py\n'}
+[8.229498] (-) TimerEvent: {}
+[8.322083] (safety_filter) StdoutLine: {'line': b'copying safety_filter/sensor_attack_node.py -> /mnt/c/Sidarth/robotics/projects_robotics/dsp/ros2_ws/build/safety_filter/build/lib/safety_filter\n'}
+[8.333666] (-) TimerEvent: {}
+[8.434630] (-) TimerEvent: {}
+[8.497678] (safety_filter) StdoutLine: {'line': b'running install\n'}
+[8.521107] (safety_filter) StdoutLine: {'line': b'running install_lib\n'}
+[8.534821] (-) TimerEvent: {}
+[8.635850] (-) TimerEvent: {}
+[8.736833] (-) TimerEvent: {}
+[8.795439] (safety_filter) StdoutLine: {'line': b'copying /mnt/c/Sidarth/robotics/projects_robotics/dsp/ros2_ws/build/safety_filter/build/lib/safety_filter/sensor_attack_node.py -> /mnt/c/Sidarth/robotics/projects_robotics/dsp/ros2_ws/install/safety_filter/lib/python3.12/site-packages/safety_filter\n'}
+[8.836991] (-) TimerEvent: {}
+[8.937896] (-) TimerEvent: {}
+[9.038832] (-) TimerEvent: {}
+[9.140106] (-) TimerEvent: {}
+[9.157909] (safety_filter) StdoutLine: {'line': b'byte-compiling /mnt/c/Sidarth/robotics/projects_robotics/dsp/ros2_ws/install/safety_filter/lib/python3.12/site-packages/safety_filter/sensor_attack_node.py to sensor_attack_node.cpython-312.pyc\n'}
+[9.240366] (-) TimerEvent: {}
+[9.341346] (-) TimerEvent: {}
+[9.409795] (safety_filter) StdoutLine: {'line': b'running install_data\n'}
+[9.441509] (-) TimerEvent: {}
+[9.495639] (safety_filter) StdoutLine: {'line': b'running install_egg_info\n'}
+[9.541869] (-) TimerEvent: {}
+[9.582056] (safety_filter) StdoutLine: {'line': b"removing '/mnt/c/Sidarth/robotics/projects_robotics/dsp/ros2_ws/install/safety_filter/lib/python3.12/site-packages/safety_filter-0.0.0-py3.12.egg-info' (and everything under it)\n"}
+[9.642062] (-) TimerEvent: {}
+[9.743123] (-) TimerEvent: {}
+[9.793026] (safety_filter) StdoutLine: {'line': b'Copying ../../build/safety_filter/safety_filter.egg-info to /mnt/c/Sidarth/robotics/projects_robotics/dsp/ros2_ws/install/safety_filter/lib/python3.12/site-packages/safety_filter-0.0.0-py3.12.egg-info\n'}
+[9.843421] (-) TimerEvent: {}
+[9.945555] (-) TimerEvent: {}
+[10.046799] (-) TimerEvent: {}
+[10.148129] (-) TimerEvent: {}
+[10.249005] (-) TimerEvent: {}
+[10.350200] (-) TimerEvent: {}
+[10.451492] (-) TimerEvent: {}
+[10.538425] (safety_filter) StdoutLine: {'line': b'running install_scripts\n'}
+[10.551684] (-) TimerEvent: {}
+[10.652853] (-) TimerEvent: {}
+[10.753699] (-) TimerEvent: {}
+[10.854765] (-) TimerEvent: {}
+[10.956419] (-) TimerEvent: {}
+[11.057860] (-) TimerEvent: {}
+[11.159043] (-) TimerEvent: {}
+[11.168467] (safety_filter) StdoutLine: {'line': b'Installing keyboard_attack_node script to /mnt/c/Sidarth/robotics/projects_robotics/dsp/ros2_ws/install/safety_filter/lib/safety_filter\n'}
+[11.210661] (safety_filter) StdoutLine: {'line': b'Installing safety_filter_node script to /mnt/c/Sidarth/robotics/projects_robotics/dsp/ros2_ws/install/safety_filter/lib/safety_filter\n'}
+[11.249529] (safety_filter) StdoutLine: {'line': b'Installing sensor_attack_node script to /mnt/c/Sidarth/robotics/projects_robotics/dsp/ros2_ws/install/safety_filter/lib/safety_filter\n'}
+[11.259185] (-) TimerEvent: {}
+[11.288998] (safety_filter) StdoutLine: {'line': b'Installing sensor_controller_node script to /mnt/c/Sidarth/robotics/projects_robotics/dsp/ros2_ws/install/safety_filter/lib/safety_filter\n'}
+[11.328276] (safety_filter) StdoutLine: {'line': b'Installing ultrasonic_sensor_node script to /mnt/c/Sidarth/robotics/projects_robotics/dsp/ros2_ws/install/safety_filter/lib/safety_filter\n'}
+[11.359452] (-) TimerEvent: {}
+[11.372081] (safety_filter) StdoutLine: {'line': b"writing list of installed files to '/mnt/c/Sidarth/robotics/projects_robotics/dsp/ros2_ws/build/safety_filter/install.log'\n"}
+[11.415847] (safety_filter) CommandEnded: {'returncode': 0}
+[11.459668] (-) TimerEvent: {}
+[11.560818] (-) TimerEvent: {}
+[11.661898] (-) TimerEvent: {}
+[11.763290] (-) TimerEvent: {}
+[11.864422] (-) TimerEvent: {}
+[11.965192] (-) TimerEvent: {}
+[12.066438] (-) TimerEvent: {}
+[12.167257] (-) TimerEvent: {}
+[12.268603] (-) TimerEvent: {}
+[12.346548] (safety_filter) JobEnded: {'identifier': 'safety_filter', 'rc': 0}
+[12.370776] (-) TimerEvent: {}
+[12.371579] (-) EventReactorShutdown: {}
